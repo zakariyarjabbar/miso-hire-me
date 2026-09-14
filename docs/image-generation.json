@@ -1,0 +1,383 @@
+{
+  "title": "Miso \u2014 photographic asset set",
+  "created_date": "2026-09-11",
+  "tool_mode": "Built-in image_gen",
+  "original_asset_count": 11,
+  "generation_requests": 11,
+  "identity_reference": "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/01-hero-reference.png",
+  "room_reference": "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/02-laptop-scene.png",
+  "provenance": "All eleven images were generated specifically for a fictional cat portfolio, with one separate built-in request per asset. The hero was visually inspected and selected first, then its explicit path was included in every subsequent generation. The sleepy image was inspected before the awake edit. Original tool outputs remain at source_path, and named originals preserve their original bytes.",
+  "overall_consistency": "Strong visual identity consistency: adult ginger tabby, amber eyes, pink nose, cream muzzle and small chest bib, white toe caps with ginger legs, dark orange striped rounded-tip tail. Shared studio uses sunny left window, oak desk, warm white walls, beige linen sofa, plain cardboard box and silver unbranded laptop. No costume, person, watermark, logo or fabricated screen interface.",
+  "limitations": [
+    "The awake generative edit closely preserves the sleeping composition but is not mathematically pixel-identical outside the eyes; see qa.json for measured differences.",
+    "The sofa scene contains a blurred additional green plant at the lower-left foreground, a minor departure from the one-plant brief.",
+    "Laptop images contain small generated keyboard legends; there are no captions, branding, interface text or watermark."
+  ],
+  "assets": [
+    {
+      "id": "hero-reference",
+      "filename": "01-hero-reference.png",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: the identity reference and transparent cutout hero for a fictional cat portfolio.\nPrimary request: create ONE high quality original editorial photograph of Miso, a real-looking adult ginger tabby cat, sitting upright calmly and confidently, facing the camera. Miso has amber eyes, a pink nose, a cream muzzle, a small cream chest bib, WHITE FRONT TOES ONLY (ginger legs), and a dark orange striped tail with a rounded tip.\nComposition/framing: portrait, approximately 1024x1536, centered full-body sitting cat. Entire ears, body, both front toes, hindquarters and full striped tail must fit inside the image with comfortable clear margin. The tail curves naturally next to the body. Natural adult cat proportions and anatomy.\nScene/backdrop: GENUINELY TRANSPARENT BACKGROUND with alpha, clean individual fur edges, no backdrop, no visible floor, no fake checkerboard pattern.\nStyle/medium: exceptionally detailed natural photographic fur, not illustration, not CGI; warm ginger fur and bright soft daylight, balanced realistic color. Calm neutral attentive expression.\nConstraints: this image will become the sole identity reference for ten more photographs. Preserve distinctive face markings, amber eyes, small cream bib and limited white toes. Four anatomically plausible legs, no human features, no costumes, no collar, no text, no watermark, no logos, no human hands. One cat only.",
+      "references": [],
+      "source_path": "/Users/zakariyajabbar/.codex/generated_images/01a090ee-7558-70e0-b8ed-6c0726ea7fb5/exec-3f4746ec-dda1-4a9b-992d-40868fb2bf84.png",
+      "alt": "Miso, an amber-eyed ginger tabby with cream muzzle and white front toes, sitting upright with a curved striped tail.",
+      "assessment": "Approved identity reference. Entire ears, body, front toes and rounded striped tail visible. Genuine transparency verified: 1024x1536 RGBA; alpha extrema 0\u2013254; 750089 fully transparent pixels.",
+      "path": "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/01-hero-reference.png",
+      "rights_basis": "Original AI-generated fictional cat photograph made with the built-in image_gen tool at the user's request. All source references were generated in this same asset set; no third-party photographs were used.",
+      "metadata": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "bytes": 2598858,
+        "sha256": "a7f9a4936200a2f1fd6402ac62371f620be4bbb38e3cc385915b166528c446ec",
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "fully_transparent_pixels": 750089
+      },
+      "webp": {
+        "path": "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/webp/01-hero-reference.webp",
+        "bytes": 268800,
+        "settings": {
+          "quality": 84,
+          "alphaQuality": 100,
+          "effort": 5
+        },
+        "purpose": "Format optimization; original dimensions and alpha preserved, no creative changes."
+      }
+    },
+    {
+      "id": "laptop-scene",
+      "filename": "02-laptop-scene.png",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: editorial lifestyle photograph for fictional cat Miso's portfolio.\nInput image 1 is the sole identity reference. Preserve this exact cat's facial structure, ginger stripes, amber eyes, pink nose, cream muzzle, small cream chest bib, white front toes (ginger legs) and thick dark orange striped rounded-tip tail.\nPrimary request: Miso sprawled comfortably across the keyboard of a silver unbranded open laptop on an oak desk, calm confident cat naturally claiming the keyboard. Head lifted slightly and looking toward the camera, front toes draped near the keyboard edge.\nScene/backdrop: sunny home studio with warm white walls, oak desk, a beige linen sofa softly behind, a plain cardboard box, daylight window on the left and one small green plant near that window. This will be the shared room for this series. Laptop screen faces away from the viewer so only its plain silver back and black unlettered keys are visible.\nComposition: landscape approximately 1536x1024, natural eye-level three-quarter editorial angle, cat and laptop both clearly visible. Cat is the focus; room softly blurred.\nStyle and lighting: real photographic fur detail and natural anatomy, warm orange fur, bright soft daylight, oak grain and linen texture, calm airy natural editorial photography.\nConstraints: keep Miso's identity from image 1, only one cat, no human, no hands, no collar or costume, no logos, no text, no watermark, no artificial interface, no extra limbs or impossible laptop geometry.",
+      "references": [
+        "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/01-hero-reference.png"
+      ],
+      "source_path": "/Users/zakariyajabbar/.codex/generated_images/01a090ee-7558-70e0-b8ed-6c0726ea7fb5/exec-d99b9cee-6f4b-404d-b3b4-8956020ac21f.png",
+      "alt": "Miso sprawled across an unbranded silver laptop on an oak desk in a sunny home studio.",
+      "assessment": "Strong identity match to the hero; natural body, amber eyes, white toe caps and striped tail. Room establishes window and green plant at left, beige linen sofa and cardboard box behind.",
+      "path": "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/02-laptop-scene.png",
+      "rights_basis": "Original AI-generated fictional cat photograph made with the built-in image_gen tool at the user's request. All source references were generated in this same asset set; no third-party photographs were used.",
+      "metadata": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB",
+        "bytes": 2275903,
+        "sha256": "31096374c345d73a09bfb86c8651ef20031844ba29115e38ca015678e8fa5d6d"
+      },
+      "webp": {
+        "path": "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/webp/02-laptop-scene.webp",
+        "bytes": 136216,
+        "settings": {
+          "quality": 84,
+          "alphaQuality": 100,
+          "effort": 5
+        },
+        "purpose": "Format optimization; original dimensions and alpha preserved, no creative changes."
+      }
+    },
+    {
+      "id": "sleepy-portrait",
+      "filename": "03-sleepy-portrait.png",
+      "alt": "Miso sleeping on the oak desk with his chin resting on folded white-tipped front paws.",
+      "prompt": "Use case: photorealistic-natural. Asset type: original editorial photograph for fictional cat Miso's portfolio.\nInput image 1 is the sole CAT IDENTITY REFERENCE: preserve this exact adult ginger tabby's face, amber eyes, pink nose, cream muzzle, small cream chest bib, ginger legs and white front toe caps, dark orange striped rounded-tip tail, calm confident proportions. Input image 2 is the ROOM REFERENCE: same sunny home studio, oak desk, warm white walls, beige linen sofa, left daylight window, one green plant near that window, plain cardboard box and silver unbranded laptop.\nStyle: natural photographic fur and anatomy, warm orange fur, bright soft daylight, real oak grain and linen. No humans, hands, collars, costume, text, watermark or logos, no fake interfaces, no extra limbs. Only one cat.\nPrimary request: Miso is lying on the oak desk, chin on folded front paws with white toe caps visible, EYES GENTLY CLOSED, peaceful asleep. The laptop is out of frame; sofa and left window softly blur in the background. Composition: close landscape 1536x1024, both ears, full face, resting paws and a little of his curled torso visible, cat centered. The camera is at desktop height. This frame will be edited later to change only his eyes to open; make a stable quiet composition.",
+      "references": [
+        "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/01-hero-reference.png",
+        "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/02-laptop-scene.png"
+      ],
+      "source_path": "/Users/zakariyajabbar/.codex/generated_images/01a090ee-7558-70e0-b8ed-6c0726ea7fb5/exec-50aed738-f4c2-449a-abbe-65a4d2b68c1b.png",
+      "assessment": "Strong identity match, naturally folded white-toed paws and closed eyes. Shared room preserved, including left window/plant and beige sofa; chin resting naturally on paws.",
+      "path": "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/03-sleepy-portrait.png",
+      "rights_basis": "Original AI-generated fictional cat photograph made with the built-in image_gen tool at the user's request. All source references were generated in this same asset set; no third-party photographs were used.",
+      "metadata": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB",
+        "bytes": 2133865,
+        "sha256": "b8224605387d9f580e81ef7d4f4cc4415eef65a664952734e1cbe930bedbd232"
+      },
+      "webp": {
+        "path": "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/webp/03-sleepy-portrait.webp",
+        "bytes": 130112,
+        "settings": {
+          "quality": 84,
+          "alphaQuality": 100,
+          "effort": 5
+        },
+        "purpose": "Format optimization; original dimensions and alpha preserved, no creative changes."
+      }
+    },
+    {
+      "id": "awake-portrait",
+      "filename": "04-awake-portrait.png",
+      "alt": "Miso rests his chin on folded white-tipped paws on the oak desk, now looking at the camera with open amber eyes.",
+      "references": [
+        "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/01-hero-reference.png",
+        "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/03-sleepy-portrait.png"
+      ],
+      "prompt": "Use case: precise-object-edit.\nAsset type: paired awake state of the sleeping cat photograph.\nInput image 1 is Miso's CAT IDENTITY REFERENCE, especially exact amber irises and eye markings. Input image 2 is the EDIT TARGET.\nPrimary request: edit image 2 ONLY by opening Miso's two eyes naturally. He is now gently awake and looking toward the camera with his same amber eyes.\nInvariants: every other part of image 2 must stay exactly unchanged: same 1536x1024 composition, camera angle, head position, ears, expression around muzzle, nose, whiskers, fur texture and stripe pattern, chin resting on identical folded white-tipped paws, body pose, tail, oak grain, window, plant, sofa, box, room, focus, colors, lighting and framing. DO NOT lift the head or move paws. Do not change any pixel outside the immediate eyes/eyelids region if possible.\nNatural editorial photography. No text, logos, watermark, new props or additional animals.",
+      "source_path": "/Users/zakariyajabbar/.codex/generated_images/01a090ee-7558-70e0-b8ed-6c0726ea7fb5/exec-5d8d2b74-2194-4953-9841-0b6a9bcb6c42.png",
+      "assessment": "Eyes open in a visually closely matched sleeping composition; paws, face pose, tail, oak desk and studio retain placement. Amber eyes match hero. The generative edit has residual differences outside the eye area, with a mean absolute channel difference of 4.7202/255; it is not pixel-identical.",
+      "path": "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/04-awake-portrait.png",
+      "rights_basis": "Original AI-generated fictional cat photograph made with the built-in image_gen tool at the user's request. All source references were generated in this same asset set; no third-party photographs were used.",
+      "metadata": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB",
+        "bytes": 2048908,
+        "sha256": "efcfb0478280493736570aadf4475cea820eda89ff4aa7d05f0fa7d02d180a12"
+      },
+      "webp": {
+        "path": "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/webp/04-awake-portrait.webp",
+        "bytes": 123730,
+        "settings": {
+          "quality": 84,
+          "alphaQuality": 100,
+          "effort": 5
+        },
+        "purpose": "Format optimization; original dimensions and alpha preserved, no creative changes."
+      }
+    },
+    {
+      "id": "resume-portrait",
+      "filename": "05-resume-portrait.png",
+      "alt": "Close portrait of Miso sitting alert, with amber eyes, a pink nose and a small cream chest bib.",
+      "prompt": "Use case: photorealistic-natural. Asset type: original editorial photograph for fictional cat Miso's portfolio.\nInput image 1 is the sole CAT IDENTITY REFERENCE: preserve this exact adult ginger tabby's face, amber eyes, pink nose, cream muzzle, small cream chest bib, ginger legs and white front toe caps, dark orange striped rounded-tip tail, calm confident proportions. Input image 2 is the ROOM REFERENCE: same sunny home studio, oak desk, warm white walls, beige linen sofa, left daylight window, one green plant near that window, plain cardboard box and silver unbranded laptop.\nStyle: natural photographic fur and anatomy, warm orange fur, bright soft daylight, real oak grain and linen. No humans, hands, collars, costume, text, watermark or logos, no fake interfaces, no extra limbs. Only one cat.\nPrimary request: a close-up resume portrait of Miso, head and chest visible, alert with both amber eyes looking at the camera, calm self-possessed expression, ears complete. Scene/backdrop: seamless softly lit warm ivory paper background; do not show the studio or furniture for this formal portrait. Composition: square 1024x1024, head centered with margin above ears, chest bib visible at bottom. Preserve the same face and fur markings from input image 1. Clean photographic portrait, no text.",
+      "references": [
+        "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/01-hero-reference.png",
+        "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/02-laptop-scene.png"
+      ],
+      "source_path": "/Users/zakariyajabbar/.codex/generated_images/01a090ee-7558-70e0-b8ed-6c0726ea7fb5/exec-21b0e174-3f86-4116-96ad-b5793065d301.png",
+      "assessment": "Strong frontal identity match with complete ears, amber eyes, cream muzzle and small cream bib. Clean warm paper background.",
+      "path": "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/05-resume-portrait.png",
+      "rights_basis": "Original AI-generated fictional cat photograph made with the built-in image_gen tool at the user's request. All source references were generated in this same asset set; no third-party photographs were used.",
+      "metadata": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB",
+        "bytes": 2408692,
+        "sha256": "c2e33f4ed97c82b342aa1789605d5e2360c6caa3ff912480523a0dc0bc69c434"
+      },
+      "webp": {
+        "path": "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/webp/05-resume-portrait.webp",
+        "bytes": 178774,
+        "settings": {
+          "quality": 84,
+          "alphaQuality": 100,
+          "effort": 5
+        },
+        "purpose": "Format optimization; original dimensions and alpha preserved, no creative changes."
+      }
+    },
+    {
+      "id": "box-inspection",
+      "filename": "06-box-inspection.png",
+      "alt": "Miso sits inside a plain open cardboard box on the oak desk and looks calmly toward the camera.",
+      "prompt": "Use case: photorealistic-natural. Asset type: original editorial photograph for fictional cat Miso's portfolio.\nInput image 1 is the sole CAT IDENTITY REFERENCE: preserve this exact adult ginger tabby's face, amber eyes, pink nose, cream muzzle, small cream chest bib, ginger legs and white front toe caps, dark orange striped rounded-tip tail, calm confident proportions. Input image 2 is the ROOM REFERENCE: same sunny home studio, oak desk, warm white walls, beige linen sofa, left daylight window, one green plant near that window, plain cardboard box and silver unbranded laptop.\nStyle: natural photographic fur and anatomy, warm orange fur, bright soft daylight, real oak grain and linen. No humans, hands, collars, costume, text, watermark or logos, no fake interfaces, no extra limbs. Only one cat.\nPrimary request: Miso inspecting a plain open cardboard box in the same studio, sitting naturally INSIDE the box on the oak desk, head and upper body emerging, white front toes resting gently on the near box rim. Show real plausible weight and anatomy. The box is plain kraft cardboard with open top, folded flaps and subtle corrugated edges, no labels or print.\nComposition: landscape 1536x1024 at cat's eye level, entire box visible and Miso centered; left window and one plant, warm white wall and beige sofa softly behind. Alert confident expression. Laptop may be out of frame. Do not copy the previous laptop pose.",
+      "references": [
+        "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/01-hero-reference.png",
+        "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/02-laptop-scene.png"
+      ],
+      "source_path": "/Users/zakariyajabbar/.codex/generated_images/01a090ee-7558-70e0-b8ed-6c0726ea7fb5/exec-5a6f5831-f6d9-4258-85fb-f8a1945869ac.png",
+      "assessment": "Strong identity match. Cat sits plausibly inside an open plain box with front toes on near flap. Shared studio preserved.",
+      "path": "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/06-box-inspection.png",
+      "rights_basis": "Original AI-generated fictional cat photograph made with the built-in image_gen tool at the user's request. All source references were generated in this same asset set; no third-party photographs were used.",
+      "metadata": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB",
+        "bytes": 2291511,
+        "sha256": "f3836ad87672de3c6122fd73c13b86c92884546d964a1fe6b61eb198a62dfc93"
+      },
+      "webp": {
+        "path": "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/webp/06-box-inspection.webp",
+        "bytes": 141078,
+        "settings": {
+          "quality": 84,
+          "alphaQuality": 100,
+          "effort": 5
+        },
+        "purpose": "Format optimization; original dimensions and alpha preserved, no creative changes."
+      }
+    },
+    {
+      "id": "sofa-scene",
+      "filename": "07-sofa-scene.png",
+      "alt": "Miso sits confidently on the center cushion of the beige linen sofa in the sunny studio.",
+      "references": [
+        "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/01-hero-reference.png",
+        "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/02-laptop-scene.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: original editorial photograph for fictional cat Miso's portfolio.\nInput image 1 is the sole CAT IDENTITY REFERENCE: preserve this exact adult ginger tabby's face, amber eyes, pink nose, cream muzzle, small cream chest bib, ginger legs and white front toe caps, dark orange striped rounded-tip tail, calm confident proportions. Input image 2 is the ROOM REFERENCE: same sunny home studio, oak desk, warm white walls, beige linen sofa, left daylight window, one green plant near that window, plain cardboard box and silver unbranded laptop.\nStyle: natural photographic fur and anatomy, warm orange fur, bright soft daylight, real oak grain and linen. No humans, hands, collars, costume, text, watermark or logos, no fake interfaces, no extra limbs. Only one cat.\nPrimary request: Miso owns the exact center cushion of the same beige linen sofa from image 2. Sitting upright calmly and confidently, front white toe caps together on the cushion, striped tail wrapped naturally around beside his body, all ears and paws visible, looking toward the camera. No costume.\nComposition: landscape 1536x1024, slightly wide eye-level view showing the sofa's three cushions, Miso centered, bright window and one green plant to left. Same warm white room. Oak desk edge can appear in foreground, plain box softly at far right on floor if visible. The sofa upholstery and warm daylight should visually match image 2. Keep natural proportional adult cat size relative to sofa.",
+      "source_path": "/Users/zakariyajabbar/.codex/generated_images/01a090ee-7558-70e0-b8ed-6c0726ea7fb5/exec-fa9e3369-59a4-4acd-b9f9-476d3f0d66a6.png",
+      "assessment": "Strong cat identity match and natural sitting proportions on beige linen sofa. Minor continuity limitation: generator added an out-of-focus second green plant in lower-left foreground. Main window plant and studio remain consistent.",
+      "path": "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/07-sofa-scene.png",
+      "rights_basis": "Original AI-generated fictional cat photograph made with the built-in image_gen tool at the user's request. All source references were generated in this same asset set; no third-party photographs were used.",
+      "metadata": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB",
+        "bytes": 2500089,
+        "sha256": "627c5db2f5766c7c6d8d046adfeadd5c6fb16f1205a9c7822f84104bdaed7653"
+      },
+      "webp": {
+        "path": "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/webp/07-sofa-scene.webp",
+        "bytes": 180268,
+        "settings": {
+          "quality": 84,
+          "alphaQuality": 100,
+          "effort": 5
+        },
+        "purpose": "Format optimization; original dimensions and alpha preserved, no creative changes."
+      }
+    },
+    {
+      "id": "meeting-cameo",
+      "filename": "08-meeting-cameo.png",
+      "alt": "Miso peers beside the top edge of an open laptop on the studio desk, close to its webcam.",
+      "references": [
+        "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/01-hero-reference.png",
+        "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/02-laptop-scene.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: original editorial photograph for fictional cat Miso's portfolio.\nInput image 1 is the sole CAT IDENTITY REFERENCE: preserve this exact adult ginger tabby's face, amber eyes, pink nose, cream muzzle, small cream chest bib, ginger legs and white front toe caps, dark orange striped rounded-tip tail, calm confident proportions. Input image 2 is the ROOM REFERENCE: same sunny home studio, oak desk, warm white walls, beige linen sofa, left daylight window, one green plant near that window, plain cardboard box and silver unbranded laptop.\nStyle: natural photographic fur and anatomy, warm orange fur, bright soft daylight, real oak grain and linen. No humans, hands, collars, costume, text, watermark or logos, no fake interfaces, no extra limbs. Only one cat.\nPrimary request: Miso making an accidental meeting cameo. He sits naturally on the oak desk immediately beside an open silver unbranded laptop, his alert face just beside the top bezel where the laptop's small webcam lens is. His front white-tipped paws rest on the desk beside the computer. The laptop is seen at a slight three-quarter angle with a BLANK dark screen reflecting soft daylight, no interface or content. Camera lens is just a tiny dot on the top bezel, no other device.\nComposition: landscape 1536x1024, laptop to left and cat on right, both clearly visible, photograph at cat eye level; same beige sofa, left window and one plant softly behind. Show Miso's full head and chest and front paws with natural anatomy. Whimsical but entirely natural candid editorial photography.",
+      "source_path": "/Users/zakariyajabbar/.codex/generated_images/01a090ee-7558-70e0-b8ed-6c0726ea7fb5/exec-d59ba2eb-77ca-45ed-858a-3110ebcd4a4a.png",
+      "assessment": "Strong cat identity and room continuity. Natural sitting pose beside an open laptop, blank dark screen with tiny webcam dot. Head is beside screen; no fake interface.",
+      "path": "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/08-meeting-cameo.png",
+      "rights_basis": "Original AI-generated fictional cat photograph made with the built-in image_gen tool at the user's request. All source references were generated in this same asset set; no third-party photographs were used.",
+      "metadata": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB",
+        "bytes": 2149936,
+        "sha256": "55644c50661869cdd8786eef3a5be9fc6375a600b9c4c29c46011a46e9820b56"
+      },
+      "webp": {
+        "path": "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/webp/08-meeting-cameo.webp",
+        "bytes": 128180,
+        "settings": {
+          "quality": 84,
+          "alphaQuality": 100,
+          "effort": 5
+        },
+        "purpose": "Format optimization; original dimensions and alpha preserved, no creative changes."
+      }
+    },
+    {
+      "id": "window-portrait",
+      "filename": "09-window-portrait.png",
+      "alt": "Miso lounges on the sunny window sill, his white-tipped paws folded and amber eyes relaxed.",
+      "references": [
+        "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/01-hero-reference.png",
+        "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/02-laptop-scene.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: original editorial photograph for fictional cat Miso's portfolio.\nInput image 1 is the sole CAT IDENTITY REFERENCE: preserve this exact adult ginger tabby's face, amber eyes, pink nose, cream muzzle, small cream chest bib, ginger legs and white front toe caps, dark orange striped rounded-tip tail, calm confident proportions. Input image 2 is the ROOM REFERENCE: same sunny home studio, oak desk, warm white walls, beige linen sofa, left daylight window, exactly one green plant near that window, plain cardboard box and silver unbranded laptop.\nStyle: natural photographic fur and anatomy, warm orange fur, bright soft daylight, real oak grain and linen. No humans, hands, collars, costume, text, watermark or logos, no fake interfaces, no extra limbs. Only one cat and no additional plants.\nPrimary request: a relaxed portrait of Miso lounging naturally on the wide white painted sill of the same sunny window from image 2. His ginger body stretched comfortably along the sill, front paws folded with white toe caps visible, amber eyes softly open, looking toward camera; warm sunlight picks out fur texture, rounded striped tail curves beside him. Entire ears, head and front paws visible.\nComposition: portrait approximately 1024x1536, three-quarter viewpoint from inside the room at cat eye level, window frame and soft green foliage through glass, warm white wall and a small part of the beige sofa visible farther behind. Keep the only plant in its same cream pot near the far side of the sill; do not add another plant. Calm natural daylight editorial photograph, no decoration or added objects.",
+      "source_path": "/Users/zakariyajabbar/.codex/generated_images/01a090ee-7558-70e0-b8ed-6c0726ea7fb5/exec-849af3bb-57a7-4ef1-bffc-4fc5897a259d.png",
+      "assessment": "Strong identity match. Natural relaxed anatomy and clear white toe caps; ginger tail retained. Shared window, one plant and beige sofa visible.",
+      "path": "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/09-window-portrait.png",
+      "rights_basis": "Original AI-generated fictional cat photograph made with the built-in image_gen tool at the user's request. All source references were generated in this same asset set; no third-party photographs were used.",
+      "metadata": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "bytes": 2080884,
+        "sha256": "8ec3a95d7ea7322090522dd62e73848e6464e6aa89e929449063d3fe1490e5f2"
+      },
+      "webp": {
+        "path": "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/webp/09-window-portrait.webp",
+        "bytes": 113128,
+        "settings": {
+          "quality": 84,
+          "alphaQuality": 100,
+          "effort": 5
+        },
+        "purpose": "Format optimization; original dimensions and alpha preserved, no creative changes."
+      }
+    },
+    {
+      "id": "box-detail",
+      "filename": "10-box-detail.png",
+      "alt": "Close view of Miso\u2019s white front toes resting on a cardboard box rim, with his alert face above.",
+      "references": [
+        "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/01-hero-reference.png",
+        "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/02-laptop-scene.png",
+        "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/06-box-inspection.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: original editorial photograph for fictional cat Miso's portfolio.\nInput image 1 is the sole CAT IDENTITY REFERENCE: preserve this exact adult ginger tabby's face, amber eyes, pink nose, cream muzzle, small cream chest bib, ginger legs and white front toe caps, dark orange striped rounded-tip tail, calm confident proportions. Input image 2 is the ROOM REFERENCE: same sunny home studio, oak desk, warm white walls, beige linen sofa, left daylight window, exactly one green plant near that window, plain cardboard box and silver unbranded laptop.\nStyle: natural photographic fur and anatomy, warm orange fur, bright soft daylight, real oak grain and linen. No humans, hands, collars, costume, text, watermark or logos, no fake interfaces, no extra limbs. Only one cat and no additional plants.\nInput image 3 is the BOX SCENE REFERENCE: keep the same cat sitting in the same plain open kraft cardboard box on the same desk. Primary request: make a closer original photographic angle of Miso's two white front toe caps and the near box rim, with his whole alert face and ears still in frame above them. Natural paws gently resting on the rim, no extra paws, ginger striped forelegs. Show detailed white fur, corrugated cardboard edge and a hint of his cream chest bib.\nComposition: landscape 1536x1024 close photograph from slightly lower than the previous box photo, emphasize paws in foreground and face above, shallow depth of field but face readable. Crop some sides and bottom of the box; same window light from left, same studio blurred behind. No print on box, no new props.",
+      "source_path": "/Users/zakariyajabbar/.codex/generated_images/01a090ee-7558-70e0-b8ed-6c0726ea7fb5/exec-e71e4d08-7de6-471e-a55c-e2087a43a78e.png",
+      "assessment": "Strong identity and box continuity. Close view preserves face and two white-tipped front paws; cardboard rim clear and no printed labels.",
+      "path": "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/10-box-detail.png",
+      "rights_basis": "Original AI-generated fictional cat photograph made with the built-in image_gen tool at the user's request. All source references were generated in this same asset set; no third-party photographs were used.",
+      "metadata": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB",
+        "bytes": 2282883,
+        "sha256": "ab614b47e386734c09d2739e37f08e2ffe1a667514463c4ee081fa7ac9688f94"
+      },
+      "webp": {
+        "path": "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/webp/10-box-detail.webp",
+        "bytes": 144222,
+        "settings": {
+          "quality": 84,
+          "alphaQuality": 100,
+          "effort": 5
+        },
+        "purpose": "Format optimization; original dimensions and alpha preserved, no creative changes."
+      }
+    },
+    {
+      "id": "laptop-detail",
+      "filename": "11-laptop-detail.png",
+      "alt": "Close angle of Miso resting his head and white-tipped paws beside the silver laptop keyboard.",
+      "references": [
+        "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/01-hero-reference.png",
+        "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/02-laptop-scene.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Asset type: original editorial photograph for fictional cat Miso's portfolio.\nInput image 1 is the sole CAT IDENTITY REFERENCE: preserve this exact adult ginger tabby's face, amber eyes, pink nose, cream muzzle, small cream chest bib, ginger legs and white front toe caps, dark orange striped rounded-tip tail, calm confident proportions. Input image 2 is the ROOM REFERENCE: same sunny home studio, oak desk, warm white walls, beige linen sofa, left daylight window, exactly one green plant near that window, plain cardboard box and silver unbranded laptop.\nStyle: natural photographic fur and anatomy, warm orange fur, bright soft daylight, real oak grain and linen. No humans, hands, collars, costume, text, watermark or logos, no fake interfaces, no extra limbs. Only one cat and no additional plants.\nPrimary request: a closer natural editorial angle of Miso at the same silver laptop from image 2. Cat reclined on oak desk beside the laptop with his head slightly lowered, eyes softly open, one white-tipped front paw lying at the edge of the keyboard and the other naturally folded under his chest. Show his pink nose, cream muzzle and ginger head prominently, plus resting paws and enough silver laptop keyboard area to understand the scene.\nComposition: landscape 1536x1024, intimate slightly high three-quarter angle on cat head, paws and laptop, subject fills frame, entire ears and muzzle visible; softly blurred room beyond. Silver laptop screen faces away, blank silver back at left edge, keys dark with no legible lettering. Only one cat, natural distinct two front paws, no fake typography, no logos, no interface. Preserve exact face and fur markings from image 1.",
+      "source_path": "/Users/zakariyajabbar/.codex/generated_images/01a090ee-7558-70e0-b8ed-6c0726ea7fb5/exec-67a1be70-e962-404a-8a6f-fbb1970069e9.png",
+      "assessment": "Strong identity and studio continuity; naturally folded paw with other white toe cap at keyboard. No branding or interface. Minor limitation: small generated key legends are present rather than perfectly unlettered keys.",
+      "path": "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/11-laptop-detail.png",
+      "rights_basis": "Original AI-generated fictional cat photograph made with the built-in image_gen tool at the user's request. All source references were generated in this same asset set; no third-party photographs were used.",
+      "metadata": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB",
+        "bytes": 2278319,
+        "sha256": "6a4e3211bd3d475f36343ff3b4824b06b4273a55f3f9ae193a941d622655ae50"
+      },
+      "webp": {
+        "path": "/Users/zakariyajabbar/.codex/generated_images/miso-project5-assets/webp/11-laptop-detail.webp",
+        "bytes": 142196,
+        "settings": {
+          "quality": 84,
+          "alphaQuality": 100,
+          "effort": 5
+        },
+        "purpose": "Format optimization; original dimensions and alpha preserved, no creative changes."
+      }
+    }
+  ],
+  "sleep_awake_comparison": {
+    "dimensions_equal": true,
+    "excluded_eye_rectangle_px": [
+      440,
+      400,
+      800,
+      540
+    ],
+    "mean_absolute_channel_difference_outside_eyes_0_to_255": 4.7202,
+    "percent_outside_pixels_with_any_channel_difference": 99.895,
+    "percent_outside_pixels_with_channel_difference_over_10": 15.273,
+    "interpretation": "Composition visually closely matched, but generative eye edit is not mathematically pixel-identical outside the eyes."
+  },
+  "verification": {
+    "original_png_count": 11,
+    "webp_derivative_count": 11,
+    "all_named_originals_byte_identical_to_tool_sources": true,
+    "all_reference_paths_exist": true,
+    "all_webp_dimensions_match_originals": true,
+    "hero_webp_alpha_pixel_identical_to_original": true,
+    "visual_inspection": "Every image inspected from the built-in image result; sleepy edit target inspected with view_image before the eye edit."
+  }
+}

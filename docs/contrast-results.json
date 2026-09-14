@@ -1,0 +1,38 @@
+[
+  {
+    "label": "button",
+    "foreground": "#FFFCF4",
+    "background": "#C73522",
+    "ratio": 5.17
+  },
+  {
+    "label": "accent on sky",
+    "foreground": "#AA2C1B",
+    "background": "#BEDCED",
+    "ratio": 4.75
+  },
+  {
+    "label": "accent on butter",
+    "foreground": "#AA2C1B",
+    "background": "#F6E7A7",
+    "ratio": 5.48
+  },
+  {
+    "label": "body on paper",
+    "foreground": "#24231F",
+    "background": "#FFFCF4",
+    "ratio": 15.34
+  },
+  {
+    "label": "muted on paper",
+    "foreground": "#59584E",
+    "background": "#FFFCF4",
+    "ratio": 6.99
+  },
+  {
+    "label": "ink on sky",
+    "foreground": "#24231F",
+    "background": "#BEDCED",
+    "ratio": 10.97
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "kind": "Single synthetic Chromium run per route, local static HTTP server. Not field data or a Lighthouse score.",
+  "conditions": "390 × 844 viewport; cache disabled; 4× CPU slowdown; 150 ms latency; 1.6 Mbps download and 750 Kbps upload. No interaction or scroll.",
+  "results": [
+    {
+      "route": "/",
+      "viewport": "390 × 844",
+      "lcpMs": 5272,
+      "cls": 0,
+      "domContentLoadedMs": 1212,
+      "transferredBytes": 1075708,
+      "scriptTransferredBytes": 512945,
+      "requests": 25,
+      "externalRequests": []
+    },
+    {
+      "route": "/hire/",
+      "viewport": "390 × 844",
+      "lcpMs": 1388,
+      "cls": 0.3448,
+      "domContentLoadedMs": 1236,
+      "transferredBytes": 667649,
+      "scriptTransferredBytes": 512945,
+      "requests": 23,
+      "externalRequests": []
+    },
+    {
+      "route": "/work/laptop-warming/",
+      "viewport": "390 × 844",
+      "lcpMs": 3516,
+      "cls": 0,
+      "domContentLoadedMs": 1201,
+      "transferredBytes": 1044269,
+      "scriptTransferredBytes": 502671,
+      "requests": 23,
+      "externalRequests": []
+    }
+  ]
+}
